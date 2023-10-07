@@ -1,1 +1,1 @@
-A script that prints the absolute path of the current working directory.
+A scripts of basics.
