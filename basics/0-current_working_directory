@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/tmp/correction/7501779720544715545063461111253322293448_5/2019/7725/basics"
+echo "$(pwd)"
