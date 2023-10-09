@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -type d -exec chmod u+rwx {} \ -exec chmod g+rx {} \ -exec chmod o+rx {} \
+find . -type d -exec chmod 755 {} \+
+
