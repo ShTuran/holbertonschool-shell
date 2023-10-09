@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c '%U' hello)" = "guillaume" ] then find . -name hello -exec chown vincent {} \ fi
+if [ "$(stat -c '%U' hello)" = "guillaume" ] then (find . -name hello -exec chown vincent {} \) fi
